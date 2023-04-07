@@ -60,6 +60,7 @@ export const updateUser = async (req, res) => {
     } catch (error) {
         console.log(error)
     }
+    next()
 }
 
 export const addNewUser = async (req, res) => {
@@ -71,6 +72,7 @@ export const addNewUser = async (req, res) => {
     } catch (error) {
         console.log(error)
     }
+    next()
 }
 
 export const deleteUser = async (req, res) => {

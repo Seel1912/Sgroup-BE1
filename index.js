@@ -15,7 +15,7 @@ app.use(cors())
 app.use('/user', userRouter)
 
 app.use('/', (req, res) => {
-    res.send('hehehehe')
+    res.send('Super Power')
 })
 
 app.listen(PORT, () => {
